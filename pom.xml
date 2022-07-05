@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>co.sofka</groupId>
+    <artifactId>cli-calculator</artifactId>
+    <version>1.0-SNAPSHOT</version>
+    <name>Cli-calculator</name>
+
+    <properties>
+        <maven.compiler.source>17</maven.compiler.source>
+        <maven.compiler.target>17</maven.compiler.target>
+    </properties>
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-jar-plugin</artifactId>
+                <version>3.2.2</version>
+                <configuration>
+                    <archive>
+                        <manifest>
+                            <addClasspath>true</addClasspath>
+                            <classpathPrefix>${project.build.finalName}.lib</classpathPrefix>
+                            <mainClass>co.sofka.Main</mainClass>
+                        </manifest>
+                        <manifestEntries>
+                            <Class-Path>/home/ark3us/.m2/repository/com/gitlab/klamonte/jexer/1.6.0/jexer-1.6.0.jar</Class-Path>
+                        </manifestEntries>
+                    </archive>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+
+    <dependencies>
+        <dependency>
+            <groupId>com.gitlab.klamonte</groupId>
+            <artifactId>jexer</artifactId>
+            <version>1.6.0</version>
+        </dependency>
+    </dependencies>
+</project>
