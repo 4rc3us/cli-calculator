@@ -1,0 +1,16 @@
+
+O
+java:S1481"9Remove this unused "calculatorRealHeight" local variable.(°•ÍË
+M	java:S106"9Replace this use of System.out or System.err by a logger.(¸ØïU
+S	java:S106)"9Replace this use of System.out or System.err by a logger.(İè¬øÿÿÿÿ
+B
+java:S1481#",Remove this unused "button2" local variable.(÷ŞŠ
+V	java:S125-"<This block of commented-out lines of code should be removed.(ˆİŠÜûÿÿÿÿ
+E
+java:S1128"*Remove this unused import 'jexer.TButton'.(ÑÕ¹şÿÿÿÿ
+@
+java:S1128"*Remove this unused import 'jexer.TWindow'.(÷Ğİ”
+Q
+java:S1128"6Remove this unused import 'jexer.bits.CellAttributes'.(‹øè’üÿÿÿÿ
+C
+java:S1128"-Remove this unused import 'jexer.bits.Color'.(€È±ç

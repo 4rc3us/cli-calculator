@@ -1,0 +1,22 @@
+
+f	java:S1174"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÉÖ¤ï
+f	java:S117["QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¡¢Š¬
+P
+java:S1118":Add a private constructor to hide the implicit public one.(åÜğ
+N	java:S106"9Replace this use of System.out or System.err by a logger.(§²»¼
+S	java:S106&"9Replace this use of System.out or System.err by a logger.(“¸Æ üÿÿÿÿ
+S	java:S1069"9Replace this use of System.out or System.err by a logger.(±ìº§üÿÿÿÿ
+S	java:S106<"9Replace this use of System.out or System.err by a logger.(³İÂüÿÿÿÿ
+N	java:S106@"9Replace this use of System.out or System.err by a logger.(ş°ï
+M	java:S106B"9Replace this use of System.out or System.err by a logger.(˜¯‹h
+S	java:S106M"9Replace this use of System.out or System.err by a logger.(ÿªĞ›ıÿÿÿÿ
+h
+java:S3776["RRefactor this method to reduce its Cognitive Complexity from 21 to the 15 allowed.(¡¢Š¬
+S	java:S106`"9Replace this use of System.out or System.err by a logger.(±ìº§üÿÿÿÿ
+N	java:S106d"9Replace this use of System.out or System.err by a logger.(—Ä¥
+N	java:S106i"9Replace this use of System.out or System.err by a logger.(•¥¥
+N	java:S106l"9Replace this use of System.out or System.err by a logger.(ÃòÕÂ
+S	java:S106o"9Replace this use of System.out or System.err by a logger.(³İÂüÿÿÿÿ
+N	java:S106t"9Replace this use of System.out or System.err by a logger.(•¥¥
+N	java:S106w"9Replace this use of System.out or System.err by a logger.(ÃòÕÂ
+T	java:S106ƒ"9Replace this use of System.out or System.err by a logger.(ÿªĞ›ıÿÿÿÿ

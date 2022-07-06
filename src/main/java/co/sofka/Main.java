@@ -1,29 +1,31 @@
 package co.sofka;
 
-import co.sofka.test.FuncionalTest;
-import co.sofka.test.TestApplication;
-import jexer.TApplication;
-
-import java.io.UnsupportedEncodingException;
+import static co.sofka.gui.Calculator.*;
+import static co.sofka.util.IOUtilities.askFor;
+import static co.sofka.util.IOUtilities.menuMaker;
 
 public class Main {
     public static void main(String[] args) {
-        //        FuncionalTest runnable = (FuncionalTest) (x) -> {
-        //            System.out.println("Hello " + (String) x[0] + "!");
-        //        };
-        //        runnable.run("David");
 
-        TestApplication app = null;
+        while (true) {
+            switch (menuMaker("CLI - Calculator",
+                              new String[]{"Sumar", "Restar", "Multiplicar", "Dividir", "Salir"})) {
 
-        try {
-            app = new TestApplication();
-        } catch (UnsupportedEncodingException e) {
-            e.printStackTrace();
+                case 1 -> {
+                    addition(askFor("Primer valor", true), askFor("Segundo valor", true));
+                }
+                case 2 -> {
+                    subtraction(askFor("Primer valor", true), askFor("Segundo valor", true));
+                }
+                case 3 -> {
+                    multiplication(askFor("Primer valor", true), askFor("Segundo valor", true));
+                }
+                case 4 -> {
+                    division(askFor("Primer valor", true), askFor("Segundo valor", true));
+                }
+
+                case 5 -> System.exit(0);
+            }
         }
-
-        assert app != null;
-        app.run();
     }
-
-
 }
